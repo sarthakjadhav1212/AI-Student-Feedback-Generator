@@ -10,7 +10,7 @@ st.set_page_config(page_title="AI Student Feedback Generator",layout="wide")
 st.title("AI Student Feedback Generator")
 st.markdown("Upload a student scores Excel file to generate AI-based personalized feedback.")
 
-API_KEY="AIzaSyBqeJX3-qlA7bSSec92RaTtAjPhysBttJM"
+API_KEY="AIzaSyALNuFFbVNQ8yk9hm1r0nak8LXOxFkrZ24"
 
 MODEL_NAME="models/gemini-1.5-flash"
 
@@ -99,3 +99,4 @@ Format strictly as:
         st.error(str(e))
 else:
     st.info("Upload an Excel file to start.")
+
